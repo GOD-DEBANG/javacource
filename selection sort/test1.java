@@ -23,6 +23,7 @@ static void swap(int arr[], int i, int j){
 }
     public static void main(String args[]){
         int arr[] = {5, 4, 3, 2, 1};
+        
         selection(arr);
         for(int i = 0; i<arr.length; i++){
             System.out.print(arr[i] + " ");
